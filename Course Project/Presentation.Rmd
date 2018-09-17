@@ -1,0 +1,60 @@
+---
+title: "Shiny App : Women's Weight Prediction"
+author: "Junaid Khan"
+date: "September 17, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About 
+
+This is the presentation for a `shiny app` The app will
+take the user's height as in input and will display the predicted weight
+of the user.
+
+
+
+
+![](image.png)
+
+## How
+
+**Single Variable Regression** : we will apply a simple regression
+algorithm. In the next slide we will see the relationship between the two
+variable `height` and `weight`.
+
+```{r , echo=T, comment=''}
+head(women)
+```
+
+## Plot
+
+```{r cars, echo = TRUE}
+data(women)
+plot(women$height, women$weight, xlab = "Women's Height", ylab = "Women's Weight", bty = "n", pch = 16)
+abline(lm(women$weight ~ women$height), col = "red", lwd = 2)
+```
+
+## Model Prediction
+
+```{r , eval=FALSE, echo=T}
+shinyServer(function(input, output) {
+  model <- lm(weight ~ height, data = women)
+  model1pred <- reactive({
+    HeightInput <- input$sliderH
+    predict(model, newdata = data.frame(height = HeightInput))
+  })
+```
+
+## Prediction Example
+
+![](1.png)
+![](2.png)
+
+```{r pressure}
+plot(pressure)
+```
+
