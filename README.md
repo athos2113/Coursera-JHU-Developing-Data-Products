@@ -17,3 +17,14 @@ The course will focus on the fundamentals of creating a data product that can be
 3. Students creating and deploying their projects
 
 4. Creating R packages, classes and methods, yhat.
+
+
+# Course Project :
+
+The final project of this course consists of creating a `shiny` app along with a `Slidify` Presentation.
+The `Slidify` presentationw is to pitch the product.
+
+I created a **Women's Weight Prediction** app
+You can look the app here : [Shiny App - Women's Weight Prediction](https://junaid97.shinyapps.io/Women_Weight_Prediction/)
+
+And, heres the `slidify` presentation for the product : [Slider for the Shiny App](https://rpubs.com/athos2113/420643)
