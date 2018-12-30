@@ -1,30 +1,41 @@
-# Coursera-JHU-Developing-Data-Products
+# Coursera : Developing Data Products 
 This repository contains the assignments and sample programs from John Hopkin's Data Science Specialization.  This course is "Developing Data Products"
+
+![logo](logo.jpg)
+
+
+[Specialization Link](https://www.coursera.org/learn/data-products)
 
 
 A data product is the production output from a statistical analysis. Data products automate complex analysis tasks or use
 technology to expand the utility of a data informed model, algorithm or inference. 
 This course covers the basics of creating data products using Shiny, R packages, and interactive graphics.
 The course will focus on the fundamentals of creating a data product that can be used to tell a story about data to a mass audience.
-
+You will learn how to communicate using statistics and statistical products. Emphasis will be paid to communicating uncertainty in statistical results. You will learn how to create simple Shiny web applications and R packages for their data products. In addition, we’ll cover reproducible presentations and interactive graphics.
 
 # Course Content :
 
 1. Shiny, rCharts, manipulate, googleVis
-
 2. Presenting data analysis, slidify, R Studio presenter.
-
 3. Students creating and deploying their projects
-
 4. Creating R packages, classes and methods, yhat.
 
 
-# Course Project :
+# [Peer-graded Assignment: R Markdown and Leaflet](https://github.com/athos2113/Coursera-JHU-Developing-Data-Products/tree/master/Assignment1)
 
-The final project of this course consists of creating a `shiny` app along with a `Slidify` Presentation.
-The `Slidify` presentationw is to pitch the product.
+>Create a web page using R Markdown that features a map created with Leaflet.
+Host your webpage on either GitHub Pages, RPubs, or NeoCities.
+Your webpage must contain the date that you created the document, and it must contain a map created with Leaflet. We would love to see you show off your creativity!
 
-I created a **Women's Weight Prediction** app
-You can look the app here : [Shiny App - Women's Weight Prediction](https://junaid97.shinyapps.io/Women_Weight_Prediction/)
+# [Peer-graded Assignment: R Markdown Presentation & Plotly](https://github.com/athos2113/Coursera-JHU-Developing-Data-Products/tree/master/Assignment2)
 
-And, heres the `slidify` presentation for the product : [Slider for the Shiny App](https://rpubs.com/athos2113/420643)
+>Create a web page presentation using R Markdown that features a plot created with Plotly. Host your webpage on either GitHub Pages, RPubs, or NeoCities. Your webpage must contain the date that you created the document, and it must contain a plot created with Plotly. We would love to see you show off your creativity!
+
+
+
+
+# [Peer-graded Assignment: Course Project: Shiny Application and Reproducible Pitch](https://github.com/athos2113/Coursera-JHU-Developing-Data-Products/tree/master/Course%20Project)
+
+>This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+
