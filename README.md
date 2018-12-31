@@ -1,10 +1,10 @@
 # Coursera : Developing Data Products 
-This repository contains the assignments and sample programs from John Hopkin's Data Science Specialization.  This course is "Developing Data Products"
+This repository contains the assignments and sample program.
 
 ![logo](logo.jpg)
 
 
-[Specialization Link](https://www.coursera.org/learn/data-products)
+[Course Link](https://www.coursera.org/learn/data-products)
 
 
 A data product is the production output from a statistical analysis. Data products automate complex analysis tasks or use
